@@ -13,15 +13,18 @@ Digging a bit further, the FAQ (https://doc.zilliqa.com/techfaq.pdf) is probably
 
 Unfortunately like a lot of recent project the coin was launched for trading in March 2018 before the blockchain was actually working on Mainnet. Obviously it mooned pretty quickly and crashed as quickly. Mainnet was only launched in January 2019. See an interesting analysis from September 2018 here: https://cryptovest.com/news/zilliqa-zil-technical-analysis-why-zil-is-the-quiet-coin-to-watch-in-q4/
 
-## Explorer
+## Block Explorer
 
-Next I like to focus on exploring the blockchain before the last and most important step, the code. You can find a ZIL block explorer here: https://explorer.zilliqa.com/home. It's hosted on the mail domain of ZIL so I suppose it can be trusted. With sharding you get 2 types of blocks, DS and transaction blocks. Looking at the blocks created in the past there is basically no transaction in the vast majority of them, that is really worrying. From the explorer view it seems that blockchain is not used. You can also notice each block has a miner public key, that's confirming the concept of miner identity. This fact alone shows that the creators didn't take into account the fact that miners could be traced and shutdown from this information.
+Next I like to focus on exploring the blockchain before the last and most important step, the code. You can find a ZIL block explorer here: https://explorer.zilliqa.com/home. It's hosted on the mail domain of ZIL so I consider it can be trusted. With sharding you get 2 types of blocks, DS and transaction blocks. Looking at the blocks created in the past there is basically no transaction in the vast majority of them, that is really worrying. From the explorer view it seems that blockchain is not used. You can also notice each block has a miner public key, that's confirming the concept of miner identity. This fact alone shows that the creators didn't take into account the fact that miners could be traced and shutdown from this information. At this stage the blockchain is not really used by anybody
 
 ## Code
 
-### Repo
+### Development
 
-### Mining
+Zilliqa repository is available here: 
+There is about 8 active contributors in the past month which is inline with the expectations from a small project like ZIL. Code commit is still quite active even in the past month. Some projects just stop all developments after cashing in on the token sale. This is not the case here. Looking at branches we can see interesting developments being, hopefully, worked on offline. Overall the development of Zilliqa is churning along nicely which is always sign of a serious project. I noticed also a bug bounty program which is rare for projects of this size. 
+
+### Mining Software
 
 The smart contract library of Zilliqa (Scilla) is based on Ocaml. This is a famously complicated environment for development. Following the installation instructions from a basic Ubuntu (this is the distribution mentioned in the system requirements) machine just fails. Either the instructions are outdated or there is some temporary glitch. To be noted: I spent well over 20h trying to get this to work and was stuck with an issue related to opam (the package manager of Ocaml). Opam official maintainer for Ubuntu was basically unreachable and other users faced the same issue before me without answers. Instructions are here: https://github.com/Zilliqa/Zilliqa/wiki/Mining.
 
