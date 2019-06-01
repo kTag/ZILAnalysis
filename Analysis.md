@@ -23,7 +23,7 @@ Next I like to focus on exploring the blockchain before the last and most import
 
 ### Mining
 
-Mining client is based on Ocaml. This is a famously complicated environment for development. Following the installation instructions from a basic Ubuntu machine just fails. Either the instructions are outdated or there is some temporary glitch. To be noted: I spent well over 20h trying to get this to work and was stuck with an issue related to opam (the package manager of Ocaml). Opam official maintainer for Ubuntu was basically unreachable and other users faced the same issue before me without answers. 
+The smart contract library of Zilliqa (Scilla) is based on Ocaml. This is a famously complicated environment for development. Following the installation instructions from a basic Ubuntu (this is the distribution mentioned in the system requirements) machine just fails. Either the instructions are outdated or there is some temporary glitch. To be noted: I spent well over 20h trying to get this to work and was stuck with an issue related to opam (the package manager of Ocaml). Opam official maintainer for Ubuntu was basically unreachable and other users faced the same issue before me without answers. Instructions are here: https://github.com/Zilliqa/Zilliqa/wiki/Mining.
 
 
 
