@@ -15,7 +15,7 @@ Unfortunately like a lot of recent project the coin was launched for trading in 
 
 ## Explorer
 
-Next I like to focus on exploring the blockchain before the last and most important step, the code. You can find a ZIL block explorer here: https://explorer.zilliqa.com/home. It's hosted on the mail domain of ZIL so I suppose it can be trusted. With sharding you get 2 types of blocks, DS and transaction blocks. With a 0.00 TPS it looks like not much is happening on that blockchain. Looking at the last 10 blocks there is basically no transaction in any of them that is really worrying. From the explorer view it seems that blockchain is dead. You can also notice each block has a miner public key, that's confirming the concept of miner identity.
+Next I like to focus on exploring the blockchain before the last and most important step, the code. You can find a ZIL block explorer here: https://explorer.zilliqa.com/home. It's hosted on the mail domain of ZIL so I suppose it can be trusted. With sharding you get 2 types of blocks, DS and transaction blocks. Looking at the blocks created in the past there is basically no transaction in the vast majority of them, that is really worrying. From the explorer view it seems that blockchain is not used. You can also notice each block has a miner public key, that's confirming the concept of miner identity. This fact alone shows that the creators didn't take into account the fact that miners could be traced and shutdown from this information.
 
 ## Code
 
@@ -23,6 +23,7 @@ Next I like to focus on exploring the blockchain before the last and most import
 
 ### Mining
 
+Mining client is based on Ocaml. This is a famously complicated environment for development. Following the installation instructions from a basic Ubuntu machine just fails. Either the instructions are outdated or there is some temporary glitch. To be noted: I spent well over 20h trying to get this to work and was stuck with an issue related to opam (the package manager of Ocaml). Opam official maintainer for Ubuntu was basically unreachable and other users faced the same issue before me without answers. 
 
 
 
