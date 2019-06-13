@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 show_downloads: false
 future: true
+timezone: Asia/Singapore
