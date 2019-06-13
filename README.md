@@ -20,6 +20,8 @@ Digging a bit further, the FAQ (https://doc.zilliqa.com/techfaq.pdf) is probably
 
 For Zilliqa (https://docs.zilliqa.com/whitepaper.pdf) we noticed the confirmation of the use of sharding, some extra details on cryptographic algorithm. It also explains the notion of leader nodes. This combined with sharding makes verifiable ownership of coins very difficult to achieve. Overall the whitepaper doesn't give much relevant information for a technical analysis of the coin but it's a serious document and clearly some effort has been made to describe an interesting vision.
 
+![Whitepaper]
+
 ## Launch
 
 > ### Goal
