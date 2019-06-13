@@ -11,6 +11,8 @@ Zilliqa website (https://zilliqa.com) at first glance doesn't have much technica
 
 Digging a bit further, the FAQ (https://doc.zilliqa.com/techfaq.pdf) is probably the most interesting next step. We discover that ZIL is a public blockchain focused on scalability with apparently *almost* linear scalability. They keep comparing themselves with ETH, so we can suppose it's not a simple crypto currency blockchain it's a more complete smart contracts blockchain. We can also discover it's PoW based, but only to establish mining identities (!?) and to perform network sharding (which explains their high transaction volume). But PoW is not used for consensus, it's a different method that is used: optimized practical Byzantine Fault Tolerant (used by NEO and Hyperledger also). The only reference to security on the overview section is about their smart contract language called Scilla that allows for more secure smart contracts to be written. In summary Zilliqa is a public blockchain focused on dApps requiring high throughput. There is already serious contenders in the sector like EOS and TRON but they are not as decentralised as ZIL.
 
+![FAQ]
+
 ## Whitepaper
 
 > ### Goal
@@ -32,6 +34,8 @@ Unfortunately like a lot of recent project the coin was launched for trading in 
 
 You can find a ZIL block explorer here: https://explorer.zilliqa.com/home. It's referenced from Zilliqa web site so I consider it can be trusted. With sharding you get 2 types of blocks, DS and transaction blocks. Looking at the blocks created in the past there is basically no transaction in the vast majority of them, that is really worrying. From the explorer view it seems that blockchain is not used. You can also notice each block has a miner public key, that's confirming the concept of miner identity. This fact alone shows that the creators didn't take into account that miners could be traced and shutdown from this information. At this stage the blockchain is not really used by anybody. **Update**: this week the actual smart contract part of the blockchain has been launched (see code review confirming this was missing). Activity might pick up so it's important to check the blockchain regularly and look for sign of activities.
 
+![Explorer]
+
 ## Code
 
 > ### Goal
@@ -44,6 +48,8 @@ You can find a ZIL block explorer here: https://explorer.zilliqa.com/home. It's 
 
 Zilliqa repository is available here: https://github.com/Zilliqa
 There is about 8 active contributors in the past month which is inline with the expectations from a small project like ZIL. Code commit is still quite active even in the past month. Some projects just stop all developments after cashing in on the token sale. This is not the case here. Looking at branches we can see interesting developments being, hopefully, worked on offline. Overall the development of Zilliqa is churning along nicely which is always sign of a serious project. I noticed also a bug bounty program which is rare for projects of this size. 
+
+![Code]
 
 ### Mining Software
 
@@ -68,3 +74,7 @@ If you found this useful don't hesitate to tip me:
 
 Any improvment, suggestion welcome through pull request or raise an issue ticket if it's too technical for you!
 
+[FAQ]: FAQ.png "FAQ Image"
+[Whitepaper]: Whitepaper.png "Whitepaper image"
+[Code]: Code.png "Code image"
+[Explorer]: Explorer.png "Explorer image"
