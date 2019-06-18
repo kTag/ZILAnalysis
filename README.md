@@ -1,6 +1,6 @@
 # ZIL Analysis
 
-Zilliqa had generated a lot of buzz lately and a few people have expressed interest into understanding ZIL better without spending hours chasing for references. Hence I've decided to share my analysis. This is obviously not financial advice and this is a purely technical analysis. I've also added sections to describe what kind of steps you should take for each section if you want to research another coin.
+Zilliqa had generated a lot of buzz lately and a few people have expressed interest into understanding ZIL better without spending hours chasing for references. Hence I've decided to share my analysis. This is obviously not financial advice and this is a purely technical analysis. I've also added paragraphs to describe what kind of steps you should take for each section if you want to research another coin.
 
 ## Overview
 
@@ -62,19 +62,17 @@ The smart contract library of Zilliqa (Scilla) is based on Ocaml. This is a famo
 
 ## What's Missing?
 
-Smart contract analysis (Scilla) => time consuming and not significant
-What is implement vs vision => talk to the team
-Communication and marketing strategy: no interest to me, too easy to cheat the system
+Smart contract analysis (Scilla): for coins with smart contract, to be done properly it's very time consuming and so I won't describe it here. Just ping me on Telegram if you really want help on this
+What is implement vs vision: the best source for a quick feedback on what has been done and what remains to be done to reach the vision is usually the team behind the coin. I'll complete the analysis if I hear back from the team
+Communication and marketing strategy: no interest to me, it's too easy to cheat the system
 
 ## Foreword
 
-I won't share buying decision here, if you really think it's important I might consider, please send me feedback through Telegram. I do not want people to just jump to the buying decision and not read anything. That's against the principle of crypto (do your research, always verify).
+I won't share buying decision here, if you really think it's important I might consider. Please send me feedback through Telegram. I do not want people to just jump to the buying decision and not read anything. That's against the principle of crypto (do your research, always verify).
 
 Information is correct as of June 2019
 
-If you found this useful don't hesitate to tip me:
-
-Any improvment, suggestion welcome through pull request or raise an issue ticket if it's too technical for you!
+If you found this useful don't hesitate to tip me: 1BqQpu5x5BgzU4gc65ThRhtmsxP8va63T2 (that's BTC only)
 
 [FAQ]: FAQ.png "FAQ Image"
 [Whitepaper]: Whitepaper.png "Whitepaper image"
