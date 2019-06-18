@@ -63,7 +63,9 @@ The smart contract library of Zilliqa (Scilla) is based on Ocaml. This is a famo
 ## What's Missing?
 
 Smart contract analysis (Scilla): for coins with smart contract, to be done properly it's very time consuming and so I won't describe it here. Just ping me on Telegram if you really want help on this
+
 What is implement vs vision: the best source for a quick feedback on what has been done and what remains to be done to reach the vision is usually the team behind the coin. I'll complete the analysis if I hear back from the team
+
 Communication and marketing strategy: no interest to me, it's too easy to cheat the system
 
 ## Foreword
